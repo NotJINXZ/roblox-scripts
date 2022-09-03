@@ -30,6 +30,10 @@ local UserInputService = game:GetService(AjqdeoZkFsmKjHfSQZACclovBEiLvhglrEnTCaU
 local RunService = game:GetService(AjqdeoZkFsmKjHfSQZACclovBEiLvhglrEnTCaUrebaXREzwfDURjFcVLSyDibogTZUwXZsdjgrBtnUlqlp('jteZpfpUpTfEPczPFPQnpzASZYUtKAUrgdHxCiDihcrNVswOCrtuCaXUnVuU2VydmljZQ=='))
 local Camera = workspace.CurrentCamera
 
+local SPEED_MULTIPLIER = 30
+local JUMP_POWER = 60
+local JUMP_GAP = 0.3
+
 local character = game.Players.LocalPlayer.Character
 
 for i,v in ipairs(character:GetDescendants()) do
